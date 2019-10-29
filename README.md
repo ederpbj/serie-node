@@ -17,6 +17,7 @@ git clone https://github.com/ederpbj/serie-node.git
     yarn add express
     yarn add body-parser
     yarn add mongoose
+    npm install bcrypt
 
 > Start inicial
 
