@@ -24,3 +24,30 @@ git clone https://github.com/ederpbj/serie-node.git
 
     node src/index.js
 
+    	
+Path: para trabalhar com caminhos
+Fs: trabalha com arquivos
+
+    yarn add fs path
+
+Configurar email fake
+- mailtrap
+https://mailtrap.io/inboxes
+
+Outras ferramentas para produção 
+- sparkpost
+- mailship
+- sendgrid
+- mandril 
+
+Ferramenta para teste email
+https://mailtrap.io/inboxes/737590/messages
+
+    yarn add node mailer
+
+Criar pasta src/modules
+- Arquivos que não estão relacionados diretamente com a aplicação
+
+Forma de preencher engines em arquivos html
+
+    yarn add nodemailer-express-handlebars
