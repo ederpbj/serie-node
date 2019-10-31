@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 
 //mongoose.connect('mongodb://localhost/noderest', options);
 
-mongoose.connect('mongodb://localhost/noderest', {
+mongoose.connect('mongodb://localhost:27017/noderest', {
     useCreateIndex: true,
     useNewUrlParser: true,
     useUnifiedTopology: true

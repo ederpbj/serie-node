@@ -1,6 +1,7 @@
 const mongoose = require('../../database');
 const bcryptjs = require('bcrypt');
 
+//Mongo define a tabela de acordo com esse esquema
 const UserSchema = new mongoose.Schema({
     name: {
         type: String,
@@ -17,6 +18,14 @@ const UserSchema = new mongoose.Schema({
         required: true,
         //Não exibe na consulta sql
         select: false
+    },
+    passwordResetToken:{
+        type: String,
+        select: false,
+    },
+    passwordResetExpiress: {
+        type: Date,
+        select: false,
     },
     createAt: {
         type: Date,

@@ -51,3 +51,37 @@ Criar pasta src/modules
 Forma de preencher engines em arquivos html
 
     yarn add nodemailer-express-handlebars
+
+
+iniciar o mongo na pasta
+
+C:\Program Files\MongoDB\Server\4.2\bin
+
+    mongod
+
+
+
+
+
+OUTRAS REFERÊNCIAS 
+mongoDB: Banco de dados em tempo real com Node.js
+
+    https://medium.com/@oieduardorabelo/mongodb-banco-de-dados-em-tempo-real-com-node-js-318e97efc59f
+
+
+PT 1 / Série de Vídeos: Criando uma API REST básica com Node.js e MongoDB | Tutor: Victor Lima
+
+    https://www.youtube.com/watch?v=-VoRTbo1pcY
+
+
+Build A Restful Api With Node.js Express & MongoDB | Rest Api Tutorial
+
+    https://www.youtube.com/watch?v=vjf774RKrLc
+
+
+REST api com Node.js (Express e MongoDB)
+
+    https://medium.com/@thiagoluiz.nunes/rest-api-com-node-js-express-and-mongodb-3967c2cb25b7
+
+    https://github.com/thiagoluiznunes/API-NodeExpressMongo
+

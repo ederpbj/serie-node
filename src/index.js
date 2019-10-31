@@ -9,6 +9,10 @@ app.use(bodyParser.urlencoded({extended: false}));
 
 
 //Repassando o (app)
-require('./controllers/index')(app);
+require('./app/controllers/index')(app);
 
-app.listen(27017)
+//app.listen(27017)
+
+app.listen(27017, () => {
+    console.log('Run Auth API Server')
+  })
