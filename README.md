@@ -85,3 +85,9 @@ REST api com Node.js (Express e MongoDB)
 
     https://github.com/thiagoluiznunes/API-NodeExpressMongo
 
+
+Referência Atual jul 2019
+
+CONSTRUINDO UMA API COM NODE.JS - PARTE 1: CRIANDO E LISTANDO DADOS
+
+https://woliveiras.com.br/posts/construindo-uma-api-com-node-js-parte-1-criando-e-listando-dados/
